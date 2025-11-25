@@ -1,16 +1,18 @@
-# React + Vite
+# TerrorVerse – Tu portal de terror en la web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TerrorVerse es una página dedicada al cine y las series de terror.
+Podés explorar películas, series, y acceder a webs gratis para ver contenido, todo dentro de una interfaz oscura y moderna.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Carrusel de imágenes con temática de terror
+2.Secciones de Películas, Series y Webs Gratis
+3.Diseño dark con gradientes y estética horror
+4.100% responsive y creado con React + Vite
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.React
+2.Vite
+3.TailwindCSS
+4.React Icons

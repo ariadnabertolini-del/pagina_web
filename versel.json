@@ -1,8 +1,143 @@
 {
-   "rewrites":[
+   "routes":[
     {
-        "source": "/(.*)",
-        "destination":"/"
-    }
+    "src": "/",
+    "dest": "/"
+  },
+  {
+   "src": "/peliculas",
+    "dest": "/"
+  },
+  {
+    "src": "/series",
+    "dest": "/"
+  },
+    {
+   "src": "/webgratis",
+    "dest": "/"
+  },
+
+  {
+   "src": "/peliculas/it2017",
+    "dest": "/"
+  },
+ {
+    "src": "/peliculas/it2019",
+    "dest": "/"
+  },
+   {
+    "src": "/peliculas/scream5",
+   "dest": "/"
+  },
+   {
+    "src": "/peliculas/guerramundialz",
+   "dest": "/"
+  },
+  {
+    "src": "/peliculas/fnaf",
+   "dest": "/"
+  },
+  {
+   
+    "src": "/peliculas/conjuro1",
+    "dest": "/"
+  },
+  {
+    "src": "/peliculas/conjuro2",
+    "dest": "/"
+  },
+   {
+    "src": "/peliculas/annabelle",
+    "dest": "/"
+  },
+   {
+    "src": "/peliculas/saw",
+    "dest": "/"
+  },
+   {
+   "src": "/peliculas/coraline",
+   "dest": "/"
+  },
+ {
+   "src": "/peliculas/chucky",
+    "dest": "/"
+  },
+   {
+    "src": "/peliculas/destinofinal5",
+    "dest": "/"
+  },
+   {
+    "src": "/peliculas/scream1",
+   "dest": "/"
+  },
+  {
+    "src": "/peliculas/weapons",
+    "dest": "/"
+  },
+  {
+    "src": "/peliculas/barbaro",
+    "dest": "/"
+  },
+
+   {
+    "src": "/series/welcometoderry",
+    "dest": "/"
+  },
+   {
+    "src": "/series/estamosmuertos",
+    "dest": "/"
+  },
+   {
+    "src": "/series/from",
+    "dest": "/"
+  },
+   {
+    "src": "/series/thewalkingdead",
+    "dest": "/"
+  },
+   {
+    "src": "/series/strangerthings",
+    "dest": "/"
+  },
+   {
+    "src": "/series/squidgame",
+   "dest": "/"
+  },
+  {
+    "src": "/series/rumboalinfierno",
+    "dest": "/"
+  },
+   {
+    "src": "/series/dahmer",
+   "dest": "/"
+  },
+  {
+    "src": "/series/edgein",
+    "dest": "/"
+  },
+  {
+    "src": "/series/sweethome",
+    "dest": "/"
+  },
+   {
+    "src": "/series/aliceinbonderland",
+   "dest": "/"
+  },
+  {
+    "src": "/series/thelastofus",
+   "dest": "/"
+  },
+  {
+    "src": "/series/kingdom",
+    "dest": "/"
+  },
+  {
+    "src": "/series/chuckyserie",
+   "dest": "/"
+  },
+   {
+    "src": "/series/laniebla",
+    "dest": "/"
+  }
    ]
 }

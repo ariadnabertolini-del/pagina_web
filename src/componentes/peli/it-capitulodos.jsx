@@ -39,7 +39,7 @@ export default function It2019Detalle() {
     plataforma: "HBO Max",
     enlace: "https://www.hbomax.com",
     imagen:
-      "https://upload.wikimedia.org/wikipedia/en/6/64/It_Chapter_Two_%282019%29_poster.jpg"
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggmbeAJLBD2qVBu398duEmaTlGCQcyvS2xchFiaM8Z1ehn7679EO4KhgkMobhwt3XshJqGPEYPJyq0X2dCakr4Qbo89SZPPYLss04k4tFSFsUlVT6QmeIpCxD5s0Pkh7VquJN0T6AhuFg/s1600/it-capitulo-2-poster.jpg",
   };
 
   return (

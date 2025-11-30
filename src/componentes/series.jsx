@@ -109,7 +109,7 @@ export default function Series() {
   ];
 
   return (
-    <main className="container mx-auto px-6 py-12 bg-gradient-to-b from-black via-[#1a0020] to-[#0a0a0a] text-gray-100 min-h-screen">
+   <main className="mx-auto px-6 pt-24 pb-12 bg-gradient-to-b from-black via-[#1a0020] to-[#0a0a0a] text-gray-100 min-h-screen">
   <h2 className="text-3xl font-bold text-yellow-400 mb-10 text-center drop-shadow-[0_0_10px_rgba(255,255,0,0.3)]">
     📺 Series recomendadas
   </h2>
@@ -131,16 +131,16 @@ export default function Series() {
           </h3>
           <p className="text-sm text-violet-400 mb-2 italic">{s.genero}</p>
           
-         <a
-          href={s.link}
-          className="block w-full mt-4 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg hover:bg-yellow-500 transition text-center"
-        >
-          Ver
-        </a>
+          <a
+            href={s.link}
+            className="block w-full mt-4 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg hover:bg-yellow-500 transition text-center"
+          >
+            Ver
+          </a>
         </div>
       </div>
     ))}
   </div>
-    </main>
+</main>
   );
 }

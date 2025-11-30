@@ -12,7 +12,7 @@ export default function Peliculas() {
       titulo: "It: Capítulo Dos",
       genero: "Terror / Drama",
       imagen:
-        "https://upload.wikimedia.org/wikipedia/en/6/64/It_Chapter_Two_%282019%29_poster.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggmbeAJLBD2qVBu398duEmaTlGCQcyvS2xchFiaM8Z1ehn7679EO4KhgkMobhwt3XshJqGPEYPJyq0X2dCakr4Qbo89SZPPYLss04k4tFSFsUlVT6QmeIpCxD5s0Pkh7VquJN0T6AhuFg/s1600/it-capitulo-2-poster.jpg",
        link: "/peliculas/it2019"
       },
     {
@@ -98,15 +98,14 @@ export default function Peliculas() {
   ];
 
   return (
-  <main className="container mx-auto px-6 py-12 bg-gradient-to-b from-black via-[#1a0020] to-[#0a0a0a] text-gray-100 min-h-screen">
-  <h2 className="text-3xl font-bold text-yellow-400 mb-10 text-center drop-shadow-[0_0_10px_rgba(255,255,0,0.3)]">
+ <main className="mx-auto px-6 pt-24 pb-12 bg-gradient-to-b from-black via-[#1a0020] to-[#0a0a0a] text-gray-100 min-h-screen">
+  <h2 className="bg-black/50 p-2 rounded text-3xl font-bold text-yellow-400 mb-10 text-center">
     🎬 Películas recomendadas
   </h2>
 
   <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
     {peliculas.map((p, i) => (
       <div
-      
         key={i}
         className="bg-[#120013] border border-violet-700 rounded-xl overflow-hidden shadow-md hover:shadow-yellow-500/30 hover:scale-105 transition-transform"
       >
@@ -122,20 +121,16 @@ export default function Peliculas() {
           <p className="text-sm text-violet-400 mb-2 italic">
             {p.genero}
           </p>
-            <a
-          href={p.link}
-          className="block w-full mt-4 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg hover:bg-yellow-500 transition text-center"
-        >
-          Ver
-        </a>
+          <a
+            href={p.link}
+            className="block w-full mt-4 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg hover:bg-yellow-500 transition text-center"
+          >
+            Ver
+          </a>
         </div>
       </div>
-      
     ))}
-    
   </div>
-
-
-    </main>
+</main>
   );
 }

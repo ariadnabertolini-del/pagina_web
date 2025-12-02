@@ -46,7 +46,7 @@ export default function It2019Detalle() {
     <div className="min-h-screen w-full bg-black p-6 flex justify-center items-center">
 
       <div
-        className="w-full max-w-6xl bg-purple-950 text-white rounded-2xl shadow-xl"
+        className="w-full max-w-6xl bg-purple-950 text-white rounded-2xl shadow-xl flex-wrap"
         style={{ display: "flex", flexDirection: "row" }}
       >
 
